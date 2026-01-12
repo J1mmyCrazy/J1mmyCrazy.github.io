@@ -1,4 +1,5 @@
  &lt;!DOCTYPE html&gt;
+&lt;link rel="stylesheet" href="style.css"&gt;
  &lt;html&gt;
  &lt;head&gt;
      &lt;title&gt;[Page Title]&lt;/title&gt;
@@ -8,3 +9,12 @@
      &lt;p&gt;[Short description]&lt;/p&gt;
  &lt;/body&gt;
  &lt;/html&gt;
+ &lt;button onclick="castSpell()"&gt;Click Me&lt;/button&gt;
+ &lt;p id="spellResult"&gt;&lt;/p&gt;
+
+ &lt;script&gt;
+ function castSpell() {
+     document.getElementById("spellResult").innerText =
+         "Button clicked successfully.";
+ }
+ &lt;/script&gt;
