@@ -47,3 +47,4 @@ fn fragmentMain() -> tint_symbol_2_out {
   tint_symbol_2_1();
   return tint_symbol_2_out(value_1);
 }
+
