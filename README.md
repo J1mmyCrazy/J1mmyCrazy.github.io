@@ -8,20 +8,9 @@
 ## A place I would like to visit and why
 I would like to go to a GDC. Every year I have wanted to go there was always some conflict in the way.
 
-## Quest 1 
-1 point: Reply on the Introduction Post on Discord to introduce yourself and writtenly confirm that you have read the syllabus and agreed on the rules stated in the syllabus.
-- completed
-1 point: Set up your course site titled appropriately.
-  - completed
-1 point: Render a static scene with at least three different and visible 2D shapes (i.e., they should not occlude each other).
-- completed
-1 point: Implement distinct colors for each shape.
-  - completed
-1 point: Incorporate at least one complex shape (e.g., a star or hexagon).
-- completed
-1 point: Create/update the Readme.md to provide a brief description (2-3 sentences) of your scene's theme on your course site. Think ahead: you will keep expanding it, so pick a theme that can grow.
-  - completed
-1 point: Most voted in the weekly assignment contest. On Monday (or right after holidays), in class, you will vote for the best submission of the week. If you get the highest vote, you earn an extra point!
-- completed
-? points: Anything that impresses the instructor. Write it clearly in your description so it is easy to evaluate.
-- completely up to you 
+## Quest 1 – 2D Scene
+In this quest I made a pumpkin using a bunch of different shapes and colors. I arranged the shapes to form a stylized pumpkin face instead of just placing them randomly.
+The goal of this project was to get comfortable rendering multiple visible shapes and combining them into something recognizable.
+
+##Quest 2 - Animated 2D Scene 
+In this quest I made the sharingan eye from a manga/show called Naruto. I added 2 filters being the Gaussian blur and 8-bit. I did add the grayscale filter at first but opted not too becasue it changed the way I wanted to scene too look. 
