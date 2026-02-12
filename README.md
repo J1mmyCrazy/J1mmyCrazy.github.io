@@ -14,3 +14,14 @@ The goal of this project was to get comfortable rendering multiple visible shape
 
 ## Quest 2 - Animated 2D Scene 
 In this quest I made the sharingan eye from a manga/show called Naruto. I added 2 filters being the Gaussian blur and 8-bit. I did add the grayscale filter at first but opted not too becasue it changed the way I wanted to scene too look. 
+
+## Quest 3 - Interactive 2D Scene
+(1 pt) Game of Life grid updated using a compute shader
+(1 pt) Grid is at least 256×256 and randomly initialized
+(1 pt) Keyboard input to pause/resume and reset
+(1 pt) Keyboard input to speed up / slow down
+(1 pt) 2D camera movement with keyboard (pan)
+(1 pt) 2D camera zoom in/out
+(1 pt) On-screen text instructions (HUD)
+(1 pt) FPS text toggle (HUD)
+(1 pt) Cells are rendered with a fragment shader using distinct colors
