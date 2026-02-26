@@ -25,3 +25,15 @@ In this quest I made the sharingan eye from a manga/show called Naruto. I added 
 (1 pt) On-screen text instructions (HUD)
 (1 pt) FPS text toggle (HUD)
 (1 pt) Cells are rendered with a fragment shader using distinct colors
+
+## Quest 4 – Dynamic Particle Scene
+(1 pt) Particle system physics implemented using a compute shader
+(1 pt) Forces applied to particles (buoyancy, wind, and gravity)
+(1 pt) Particle lifespan with respawning and enforced maximum particle count
+(1 pt) Particle positions updated from velocity each frame
+(1 pt) Boundary wrap-around applied to particles leaving the screen
+(1 pt) Mouse interaction used to attract particles in real time
+(1 pt) Recognizable particle effects created (fire + rainbow sparks)
+(1 pt) Non-linear interpolation applied to particle alpha fade
+(1 pt) Scene composed of two simultaneous particle effects
+(1 pt) Runs interactively with large particle counts (30,000+ total)
