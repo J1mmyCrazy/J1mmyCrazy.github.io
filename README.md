@@ -37,3 +37,16 @@ In this quest I made the sharingan eye from a manga/show called Naruto. I added 
 (1 pt) Non-linear interpolation applied to particle alpha fade
 (1 pt) Scene composed of two simultaneous particle effects
 (1 pt) Runs interactively with large particle counts (30,000+ total)
+
+## Quest 6 - 3D Shapes
+(1 pt) Projective ray generation implemented using a pinhole camera model
+(1 pt) Camera translation control implemented with keyboard input
+(1 pt) Camera rotation control implemented with keyboard input
+(1 pt) Projective camera focal length control implemented for both x and y focal
+(1 pt) Object translation control implemented with keyboard input
+(1 pt) Object rotation control implemented with keyboard input on x, y, and z axes
+(1 pt) Intersection results colored by hit value and surface orientation to improve depth perception
+(1 pt) At least three different ray-intersected shapes implemented and displayed
+(1 pt) Ray-cube intersection implemented and displayed on screen
+(1 pt) Ray-sphere intersection implemented and displayed on screen
+(1 pt) Ray-cylinder intersection implemented and displayed on screen
