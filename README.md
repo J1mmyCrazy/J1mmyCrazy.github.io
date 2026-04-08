@@ -38,6 +38,18 @@ In this quest I made the sharingan eye from a manga/show called Naruto. I added 
 (1 pt) Scene composed of two simultaneous particle effects
 (1 pt) Runs interactively with large particle counts (30,000+ total)
 
+## Quest 5 - Polygon Collision and Acceleration
+(1 pt) Basic point-inside/outside-polygon test implemented and verified on convex polygons such as the box and circle
+(1 pt) Winding number test implemented so inside/outside detection works on non-convex polygons such as the star and human
+(1 pt) Collision feedback displayed interactively by reporting whether the cursor is inside or outside the polygon
+(1 pt) GPU-based point-in-polygon collision detection implemented using a compute shader
+(1 pt) Collision detection accelerated using GPU readback with a staging buffer
+(1 pt) Collision detection remained interactive on dense polygon data with very large edge counts
+(1 pt) Polygon files loaded and rendered correctly from provided polygon assets
+(1 pt) Convex and non-convex polygon handling implemented and tested in the same workflow
+(1 pt) Mouse tracking integrated with interactive collision testing
+(1 pt) Winding-number-based collision testing extended beyond console-only debugging into a working interactive system
+
 ## Quest 6 - 3D Shapes
 (1 pt) Projective ray generation implemented using a pinhole camera model
 (1 pt) Camera translation control implemented with keyboard input
@@ -50,3 +62,15 @@ In this quest I made the sharingan eye from a manga/show called Naruto. I added 
 (1 pt) Ray-cube intersection implemented and displayed on screen
 (1 pt) Ray-sphere intersection implemented and displayed on screen
 (1 pt) Ray-cylinder intersection implemented and displayed on screen
+
+## Quest 7 - Volume Rendering
+(1 pt) Ray marching implemented with both orthogonal and pinhole/projective camera support for volume rendering
+(1 pt) Customized volume data loading implemented using BrainWeb medical volume data
+(1 pt) Procedural generation of volume data implemented using Perlin noise
+(1 pt) Linear transfer function implemented for scalar-to-intensity visualization
+(1 pt) Piecewise linear transfer function implemented for improved volume visualization
+(1 pt) Additional transfer function implemented using depth/false-color style encoding
+(1 pt) Additional transfer function implemented using DRR / absorption-style volume rendering
+(1 pt) Perlin noise-based terrain implemented and visualized with volume rendering
+(1 pt) Perlin noise-based fog / cloud special effect implemented and visualized
+(1 pt) Interactive volume rendering showcase composed with multiple switchable rendering modes and datasets
