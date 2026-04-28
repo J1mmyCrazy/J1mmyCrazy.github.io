@@ -146,18 +146,10 @@ Keyboard:
 
 ---
 
-## Individual Reflection (James)
+## Individual Reflection
 
 I worked on implementing the core particle system and simulation logic. This included setting up the GPU buffers, compute shader, and multiple simulation modes such as gravity, explosion, orbit, and cursor-follow behavior.
 
 One of the main challenges was getting the compute shader and particle updates working correctly using ping-pong buffers. Debugging GPU behavior required careful testing since small mistakes could break the simulation.
 
 This project helped me better understand how to use the GPU for both simulation and rendering, and how to build an interactive graphics system with real-time controls.
-
----
-
-## Individual Reflection (Partner)
-
-My partner focused on improving the UI and overall usability of the project. They redesigned the HUD, added new simulation modes like fire and rain, and implemented features such as particle count control and color selection.
-
-They also added useful controls like trails toggle, reset functionality, and the ability to hide the HUD, making the project feel more complete and interactive.
