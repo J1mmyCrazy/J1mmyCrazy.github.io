@@ -1,5 +1,69 @@
 # J1mmyCrazy.github.io
 
+# Interactive WebGPU Particle Sandbox
+
+This project is a real-time 2D particle simulation built using WebGPU. It allows users to interact with particles through different physics behaviors and visual modes. The system runs on the GPU using compute shaders for efficient updates.
+
+---
+
+## Features
+
+### Simulation Modes
+- Static  
+- Gravity  
+- Explosion  
+- Orbit  
+- Fire  
+- Rain  
+- Cursor Follow  
+
+### Particle System
+- GPU-based particle simulation  
+- Ping-pong buffer updates  
+- Supports up to 1000 particles  
+- Real-time motion and physics  
+
+### Interaction
+- Left click: Attract particles  
+- Right click: Repel particles  
+- Keyboard controls for switching modes and adjusting values  
+
+### UI
+- Interactive HUD with controls  
+- Particle count adjustment (0–1000)  
+- Particle size control  
+- Force and damping controls  
+- Color selection options  
+- Toggle trails, reset system, and hide HUD  
+
+---
+
+## Controls
+
+Mouse:
+- Left Click = Attract  
+- Right Click = Repel  
+
+Keyboard:
+- 1–7 = Switch modes  
+- Arrow Up/Down = Force  
+- Arrow Left/Right = Damping  
+- [ / ] = Particle size  
+- - / + = Particle count  
+- T = Toggle trails  
+- R = Reset  
+- H = Toggle HUD  
+
+---
+
+## Individual Reflection
+
+I worked on implementing the core particle system and simulation logic. This included setting up the GPU buffers, compute shader, and multiple simulation modes such as gravity, explosion, orbit, and cursor-follow behavior.
+
+One of the main challenges was getting the compute shader and particle updates working correctly using ping-pong buffers. Debugging GPU behavior required careful testing since small mistakes could break the simulation.
+
+This project helped me better understand how to use the GPU for both simulation and rendering, and how to build an interactive graphics system with real-time controls.
+
 ## Classmates and Interests
 - **Andrew**: Interested in game development  
 - **Raymond**: Interested in visual design  
@@ -89,67 +153,3 @@ I initially experimented with a grayscale filter, but decided not to use it beca
 - Perlin noise terrain visualization  
 - Fog/cloud effects using volume rendering  
 - Interactive system with multiple datasets and modes  
-
-# Interactive WebGPU Particle Sandbox
-
-This project is a real-time 2D particle simulation built using WebGPU. It allows users to interact with particles through different physics behaviors and visual modes. The system runs on the GPU using compute shaders for efficient updates.
-
----
-
-## Features
-
-### Simulation Modes
-- Static  
-- Gravity  
-- Explosion  
-- Orbit  
-- Fire  
-- Rain  
-- Cursor Follow  
-
-### Particle System
-- GPU-based particle simulation  
-- Ping-pong buffer updates  
-- Supports up to 1000 particles  
-- Real-time motion and physics  
-
-### Interaction
-- Left click: Attract particles  
-- Right click: Repel particles  
-- Keyboard controls for switching modes and adjusting values  
-
-### UI
-- Interactive HUD with controls  
-- Particle count adjustment (0–1000)  
-- Particle size control  
-- Force and damping controls  
-- Color selection options  
-- Toggle trails, reset system, and hide HUD  
-
----
-
-## Controls
-
-Mouse:
-- Left Click = Attract  
-- Right Click = Repel  
-
-Keyboard:
-- 1–7 = Switch modes  
-- Arrow Up/Down = Force  
-- Arrow Left/Right = Damping  
-- [ / ] = Particle size  
-- - / + = Particle count  
-- T = Toggle trails  
-- R = Reset  
-- H = Toggle HUD  
-
----
-
-## Individual Reflection
-
-I worked on implementing the core particle system and simulation logic. This included setting up the GPU buffers, compute shader, and multiple simulation modes such as gravity, explosion, orbit, and cursor-follow behavior.
-
-One of the main challenges was getting the compute shader and particle updates working correctly using ping-pong buffers. Debugging GPU behavior required careful testing since small mistakes could break the simulation.
-
-This project helped me better understand how to use the GPU for both simulation and rendering, and how to build an interactive graphics system with real-time controls.
