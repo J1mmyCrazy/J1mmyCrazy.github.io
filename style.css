@@ -99,3 +99,24 @@ button:hover {
 .final-button:hover {
     background: #fff08a;
 }
+
+/* ✅ NEW STUFF (video + buttons) */
+.final-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 12px;
+}
